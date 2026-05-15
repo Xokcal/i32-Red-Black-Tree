@@ -9,9 +9,14 @@
 ## 插入修复的核心
 
 ```c
+//add_fixup
 RBNode *grand = parent->parent;  // 锚点，旋转前后不变
 ...
-parent = grand->left;  // 直接从grand赋值，更稳
+if (new == parent->left){
+    rb_i32_right_rotate(root , new);
+    new = parent;
+    parent = grand->right;  // 直接从grand赋值，更稳
+}
 ```
 
 ## 核心理解：删除修复到底在修什么？
