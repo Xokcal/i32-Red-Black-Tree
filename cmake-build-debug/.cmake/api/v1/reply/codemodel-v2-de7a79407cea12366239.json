@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "i32_Black_Red",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "i32_Black_Red::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-i32_Black_Red-Debug-51f8412320faf4faf1e1.json",
+					"name" : "i32_Black_Red",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u6211\u7684C\u8bed\u8a00\u624b\u6413\u5408\u96c6/\u624b\u6413i32-Black-Red-Tree/cmake-build-debug",
+		"source" : "D:/\u6211\u7684C\u8bed\u8a00\u624b\u6413\u5408\u96c6/\u624b\u6413i32-Black-Red-Tree"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
